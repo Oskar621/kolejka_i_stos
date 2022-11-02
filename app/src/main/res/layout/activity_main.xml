@@ -23,7 +23,7 @@
         android:id="@+id/pierw_i_ost_ele_stosu"
         android:layout_width="158dp"
         android:layout_height="106dp"
-        android:text="Pierwsza i ostatnia osoba w kolejce"
+        android:text="Pierwszy i ostatni element stosu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.928"
