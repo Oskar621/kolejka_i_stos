@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
         val edittext_dodaj_do_stosu = findViewById<EditText>(R.id.editText_dodaj_do_stosu)
         val txt_ile_w_stosie = findViewById<TextView>(R.id.ile_w_stosie)
         val txt_gora_stosu = findViewById<TextView>(R.id.gora_stosu)
-        val txt_dol_stosu = findViewById<TextView>(R.id.dol_stosu)
+
         var ilosc_ele_w_stosie = 0
 
 

@@ -23,47 +23,25 @@
         android:id="@+id/pierw_i_ost_ele_stosu"
         android:layout_width="158dp"
         android:layout_height="106dp"
-        android:text="Pierwszy i ostatni element stosu"
+        android:text="Co jest na gorze stosu?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974" />
+        app:layout_constraintVertical_bias="0.897" />
 
     <TextView
         android:id="@+id/gora_stosu"
-        android:layout_width="93dp"
-        android:layout_height="54dp"
+        android:layout_width="116dp"
+        android:layout_height="77dp"
+        android:text="Kliknij w przycisk, aby zaaktualizowac dane"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
-
-    <TextView
-        android:id="@+id/dol_stosu"
-        android:layout_width="93dp"
-        android:layout_height="54dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.797" />
-
-    <TextView
-        android:id="@+id/tekst12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Na dole stosu jest:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
+        app:layout_constraintVertical_bias="0.695" />
 
     <TextView
         android:id="@+id/tekst13"
@@ -72,10 +50,10 @@
         android:text="na gorze stosu jest:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58" />
+        app:layout_constraintVertical_bias="0.591" />
 
     <Button
         android:id="@+id/dodaj_kolejka"
@@ -135,10 +113,10 @@
         android:text="Pierwsza i ostatnia osoba w kolejce"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384" />
+        app:layout_constraintVertical_bias="0.401" />
 
     <Button
         android:id="@+id/usun_kolejka"
@@ -178,14 +156,15 @@
 
     <TextView
         android:id="@+id/ostatni_w_kolejce"
-        android:layout_width="93dp"
-        android:layout_height="54dp"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:text="Kliknij w przycisk, aby zaaktualizowac dane"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.895"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.267" />
 
     <TextView
         android:id="@+id/tekst4"
@@ -213,14 +192,15 @@
 
     <TextView
         android:id="@+id/pierwszy_w_kolejce"
-        android:layout_width="93dp"
-        android:layout_height="54dp"
+        android:layout_width="118dp"
+        android:layout_height="67dp"
+        android:text="Kliknij w przycisk, aby zaaktualizowac dane"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113" />
+        app:layout_constraintVertical_bias="0.103" />
 
     <TextView
         android:id="@+id/tekst"
@@ -253,9 +233,9 @@
         android:text="STOS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533" />
+        app:layout_constraintVertical_bias="0.532" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
