@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import java.util.LinkedList
 import java.util.Queue
 
@@ -15,10 +16,38 @@ class MainActivity : AppCompatActivity() {
         val kolejka: Queue<Int> = LinkedList<Int>()
         val butt_dodaj_do_kolejki = findViewById<Button>(R.id.dodaj_kolejka)
         val butt_usun_z_kolejki = findViewById<Button>(R.id.usun_kolejka)
+        val butt_pierw_i_ost_w_kolejce = findViewById<Button>(R.id.kto_w_kolejce)
         val txt_ile_w_kolejce = findViewById<TextView>(R.id.ile_w_kolejce)
         val txt_pierwszy_w_kolejce = findViewById<TextView>(R.id.pierwszy_w_kolejce)
         val txt_ostatni_w_kolejce = findViewById<TextView>(R.id.ostatni_w_kolejce)
 
+        val length = Toast.LENGTH_SHORT
+        var text = ""
+        var numer = 1
+        var ilosc_osob_w_kolejce = 0
 
+        butt_dodaj_do_kolejki.setOnClickListener {
+            kolejka.add(numer)
+            numer+=1
+            ilosc_osob_w_kolejce+=1
+            txt_ile_w_kolejce.text = ilosc_osob_w_kolejce.toString()
+
+        }
+
+        butt_usun_z_kolejki.setOnClickListener {
+            if(!kolejka.isEmpty())
+            {
+                Toast.makeText(applicationContext,"Usunieto numer: " + kolejka.element() + " z kolejki!", length).show()
+                kolejka.remove()
+                ilosc_osob_w_kolejce -= 1
+                txt_ile_w_kolejce.text = ilosc_osob_w_kolejce.toString()
+
+            }
+            else
+            {
+                text = "Brak osob w kolejce"
+                Toast.makeText(applicationContext, text, length).show()
+            }
+        }
     }
 }
